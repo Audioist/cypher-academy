@@ -4,3 +4,24 @@
 .straight p {
   padding: 0px 10px 0px 25px;
 }
+.excel h2 {
+  padding: 0px 0px 0px 25px;
+}
+.excel p {
+  padding: 0px 0px 0px 25px;
+}
+.line-up h3 {
+  margin: 25px 0px 25px 0px;
+}
+.apply a {
+  margin: 25px 0px 25px 0px;
+}
+.line-up a {
+  margin: 10px 0px 10px 0px;
+}
+.aos-init div {
+  padding:10px 0px 0px 0px;
+}
+@media only screen and (min-width: 375px) {
+.line-up div { margin: 5px 0px 5px 0px; }
+}
