@@ -2,25 +2,25 @@
 position: absolute;
 left: 70%;
 height: 350px;
- width: 400px; 
- text-align: center; 
+ width: 400px;
+ text-align: center;
  border-radius: 10px;
 }
 .inp{
 	 display: block;
 	  padding: 5px 12px;
-	   border-radius: 30px; 
-	   margin-bottom: 20px; 
-	   margin-left: 65px; 
+	   border-radius: 30px;
+	   margin-bottom: 20px;
+	   margin-left: 65px;
 	   height: 48px;
     box-shadow: none;
     border: 1px solid #fff;
-    color: #333; 
+    color: #333;
     border: 2px solid #33D7B6;
     outline: none;
 }
 .hed {
-	font-family: Roboto;
+	font-family: Nunito;
 	text-align: center;
 	padding-top: 23px;
 	font-style: italic;
@@ -135,7 +135,7 @@ height: 350px;
 }
 
 .cl{
-	
+
 	color: #33d7b6;
     font-size: 3rem;
     margin-right: 7px;

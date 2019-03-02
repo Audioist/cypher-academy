@@ -134,10 +134,6 @@ hr {
 code,
 kbd,
 pre,
-samp {
-  font-family: monospace,monospace;
-  font-size: 1em
-}
 abbr[title] {
   border-bottom: none;
   text-decoration: underline;
@@ -192,7 +188,7 @@ input,
 optgroup,
 select,
 textarea {
-  font-family: sans-serif;
+  font-family: Lora;
   font-size: 100%;
   line-height: 1.15;
   margin: 0
@@ -278,7 +274,7 @@ template {
 }
 .grid--container {
 /*  margin: 0 40px;*/
- 
+
   width: 100%
 }
 .grid--no-gutters {
@@ -1497,7 +1493,7 @@ template {
   }
   /*margin left 6% */
   .col--xl-5 {
-    
+
     max-width: 41.66667%;
     -webkit-box-flex: 0;
     -webkit-flex: 0 0 41.66667%;
@@ -3180,7 +3176,6 @@ body.fancybox-iosfix {
   backface-visibility: hidden;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
-  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol"
 }
 .fancybox-bg,
 .fancybox-inner,
@@ -4158,7 +4153,7 @@ li.fancybox-thumbs-loading {
   width: 100%;
   text-align: center;
   line-height: 1;
-  font-family: Lato,sans-serif;
+  font-family: Laro,sans-serif;
   font-weight: 700
 }
 .countdown {
@@ -4175,7 +4170,7 @@ li.fancybox-thumbs-loading {
   line-height: 1;
   letter-spacing: 0
 }
-@font-face {
+/* @font-face {
   font-family: fontello;
   src: url(../fonts/fontello/fontello.eot?78668259);
   src: url(../fonts/fontello/fontello.eot?78668259#iefix) format("embedded-opentype"),url(../fonts/fontello/fontello.woff2?78668259) format("woff2"),url(../fonts/fontello/fontello.woff?78668259) format("woff"),url(../fonts/fontello/fontello.ttf?78668259) format("truetype"),url(../fonts/fontello/fontello.svg?78668259#fontello) format("svg");
@@ -4197,7 +4192,7 @@ li.fancybox-thumbs-loading {
   line-height: 1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale
-}
+} */
 .slick-arrow {
   text-align: center;
   cursor: pointer;
@@ -4278,7 +4273,6 @@ body {
   margin: 0;
   line-height: 1.5;
   font-size: 1.8rem;
-  font-family: -apple-system,BlinkMacSystemFont,Catamaran,sans-serif;
   font-weight: 400;
   color: #888a8b;
   background-color: #fff;
@@ -4878,7 +4872,7 @@ a:hover {
   padding-left: 30px;
   padding-right: 30px;
   line-height: 1;
-  font-family: Catamaran,sans-serif;
+  font-family: Laro,sans-serif;
   text-align: center!important;
   text-decoration: none!important;
   text-shadow: none!important;
@@ -5040,7 +5034,7 @@ form .textfield {
   box-shadow: none;
   line-height: 1.2;
   font-size: 1.6rem;
-  font-family: Catamaran,sans-serif;
+  font-family: Laro,sans-serif;
   color: #555;
   -webkit-appearance: none;
   -moz-appearance: none;
@@ -6384,7 +6378,7 @@ label {
   }
 }
 @media only screen and (min-width:1200px) {
-    
+
   #top-bar {
     padding-left: 50px;
     padding-right: 50px
@@ -6640,7 +6634,7 @@ label {
   line-height: 70px;
   font-size: 4rem;
   font-weight: 900;
-  font-family: Lato,sans-serif;
+  font-family: Laro,sans-serif;
   color: #300b46;
   -webkit-border-radius: 5px;
   border-radius: 5px
@@ -6660,7 +6654,7 @@ label {
   margin-bottom: 20px;
   font-size: 3.5rem;
   font-weight: 900;
-  font-family: Lato,sans-serif
+  font-family: Laro,sans-serif
 }
 .start-screen--style-5 .TimeCircles h4 {
   font-size: 1rem!important;
@@ -6673,7 +6667,7 @@ label {
   line-height: 1.4;
   font-size: 5rem;
   font-weight: 900;
-  font-family: Lato,sans-serif
+  font-family: Laro,sans-serif
 }
 @media only screen and (min-width:560px) {
   .start-screen--style-5 .TimeCircles h4 {
@@ -6972,7 +6966,7 @@ label {
 .calculator .result__value {
   font-size: 3.5rem;
   font-weight: 900;
-  font-family: Lato,sans-serif
+  font-family: Laro,sans-serif
 }
 @media only screen and (min-width:768px) {
   .calculator .result {
@@ -7575,7 +7569,7 @@ label {
   display: block;
   margin-bottom: 10px;
   font-size: 2.5rem;
-  font-family: Lato,sans-serif;
+  font-family: Laro,sans-serif;
   font-weight: 700;
   color: #404040
 }
@@ -7863,7 +7857,7 @@ label {
   line-height: 140px;
   font-size: 4rem;
   font-weight: 900;
-  font-family: Lato,sans-serif;
+  font-family: Laro,sans-serif;
   text-align: center;
   color: #fff;
   -webkit-border-radius: 50%;
@@ -7987,7 +7981,7 @@ label {
 .pricing-table .__price {
   line-height: 1;
   font-weight: 900;
-  font-family: Lato,sans-serif
+  font-family: Laro,sans-serif
 }
 .pricing-table .__desc-list {
   -webkit-box-flex: 1;
@@ -8745,7 +8739,7 @@ label {
   margin-top: 5px;
   font-size: 2rem;
   font-weight: 900;
-  font-family: Lato,sans-serif;
+  font-family: Laro,sans-serif;
   color: #43c1a8
 }
 .goods .__item p {
@@ -8817,7 +8811,7 @@ label {
   line-height: .7;
   font-size: 8rem;
   font-weight: 900;
-  font-family: Lato,sans-serif
+  font-family: Laro,sans-serif
 }
 .events .__item--preview {
   -webkit-box-shadow: 0 20px 18px 0 transparent;

@@ -5,10 +5,6 @@
    margin-left: 50px;
 }
 
-i._ico > img.img-responsive.lazy.job-fontawesome.handshake {
-    width: 6rem;
-}
-
 div.grid.grid--container > div > div.col-col--md-10 {
     margin-bottom: 80px;
 }
@@ -28,7 +24,7 @@ span.importance {
         padding-left: 5px;
         /*padding-right: 45px;*/
     }
-    
+
     .start-screen__content {
         background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.4)), url('../img/cypheracademy/adobe-stock/4.jpg');
     }
@@ -37,17 +33,17 @@ span.importance {
         background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.4)), url(../img/cypheracademy/adobe-stock/1.jpg);
     }
     /*take the margin-top change the background*/
-    
+
     div#intro.contact__header-image {
         /*margin-top: 80px;*/
         background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.4)), url(../img/cypheracademy/adobe-stock/5.jpg);
     }
-     
+
 
     h2.h1.__title {
         color: #FFF;
     }
-    
+
     p.header_p-textbox {
         color: #FFF;
         font-size: 2.4rem;
@@ -83,13 +79,13 @@ span.importance {
         background-color: #43c1a8;
         color: #fff;
         border: 2px solid #43c1a8;
-        font-family: Catamaran, sans-serif;
+        font-family: Lora, sans-serif;
         font-size: 2.5rem;
         padding: 10px 75px;
     }
 
     h4.CTA-hero-header {
-        font-family: Roboto;
+        font-family: Lora;
         font-style: italic;
         font-weight: 600;
         letter-spacing: 2px;
@@ -97,27 +93,27 @@ span.importance {
         text-align: center;
         color: #FFF;
     }
-    
+
     #footer .__text {
         border: 2px solid #43c1a8;
         border-radius: 3px;
         margin: 14px auto;
         padding: 15px;
     }
-    
+
     .footer__main-links {
         color: #fff;
         text-decoration: none;
-        
+
     }
     /*change the font size from 2.5 to 2*/
     p.col-MB-35,
     .custom-btn.custom-btn--style-2 {
         font-size: 2rem;
     }
-    
-    
-    
+
+
+
     .scroll-down {
         position: absolute;
         bottom: 281px;
@@ -126,11 +122,11 @@ span.importance {
     #t{
         bottom: 14px;
     }
-    
+
     #CTA__footer-students div#all {
         padding: 20px;
     }
- 
+
 /*
     p.col-MB-35 {
         text-align: left;
@@ -159,7 +155,7 @@ span.importance {
     .timeline--style-2 .__item {
         width: 50%;
     }
-    
+
     .testimonial--slider .slick-dots {
         top: 5%;
         left: 20%;
@@ -178,19 +174,19 @@ span.importance {
     h4.CTA-hero-header {
         color: #ffff;
     }
-    
+
     h4.CTA-hero-header {
         font-weight: 800;
     }
-    
+
     a.scroll-down {
         bottom: 100px;
     }
-    
+
     .top-bar--light.navigation__students-colorlinks a {
         color: #fff;
     }
-    
+
     .top-bar--light.navigation__students-colorlinks.is-fixed.top-bar--dark.is-visible a {
         color: #777;
     }
@@ -201,7 +197,7 @@ span.importance {
     .testimonial--slider .slick-dots {
         left: 3%;
     }
-    
+
     h2.h1.__title,
     p.header_p-textbox {
         padding: 0 6rem;
