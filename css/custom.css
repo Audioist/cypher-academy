@@ -1,0 +1,209 @@
+.aos-animate {
+    text-align: center;
+}
+#Privacy{
+   margin-left: 50px;
+}
+
+i._ico > img.img-responsive.lazy.job-fontawesome.handshake {
+    width: 6rem;
+}
+
+div.grid.grid--container > div > div.col-col--md-10 {
+    margin-bottom: 80px;
+}
+
+span.importance {
+    font-style: italic;
+    font-weight: 600;
+}
+
+/*BECOME A DEVELOPER ON HERO*/
+
+
+
+@media only screen and (min-width:375px) {
+/*take off the padding right*/
+    .col{
+        padding-left: 5px;
+        /*padding-right: 45px;*/
+    }
+    
+    .start-screen__content {
+        background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.4)), url('../img/cypheracademy/adobe-stock/4.jpg');
+    }
+    /*change the background */
+    div#intro.students__header-image {
+        background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.4)), url(../img/cypheracademy/adobe-stock/1.jpg);
+    }
+    /*take the margin-top change the background*/
+    
+    div#intro.contact__header-image {
+        /*margin-top: 80px;*/
+        background-image: linear-gradient(to right bottom, rgba(66, 66, 66, 0.6), rgba(66, 66, 66, 0.4)), url(../img/cypheracademy/adobe-stock/5.jpg);
+    }
+     
+
+    h2.h1.__title {
+        color: #FFF;
+    }
+    
+    p.header_p-textbox {
+        color: #FFF;
+        font-size: 2.4rem;
+    }
+
+
+    .section-heading:first-child {
+        padding-top: 50px;
+        padding-left: 20px
+    }
+    .cta-hero-input {
+        display: block;
+        padding: 5px 12px;
+        border-radius: 30px;
+        height: 48px;
+    }
+    /*NEW*/
+    #para{
+        text-align: center;
+        padding-left: 16px;
+         padding-right:  10px;
+    }
+
+/*add padding*/
+    input.cta-hero-input {
+        border: 2px solid #43c1a8;
+        color: #333;
+        margin: 15px auto;
+        padding: 15px 60px;
+    }
+
+    input#cta-hero-button {
+        background-color: #43c1a8;
+        color: #fff;
+        border: 2px solid #43c1a8;
+        font-family: Catamaran, sans-serif;
+        font-size: 2.5rem;
+        padding: 10px 75px;
+    }
+
+    h4.CTA-hero-header {
+        font-family: Roboto;
+        font-style: italic;
+        font-weight: 600;
+        letter-spacing: 2px;
+        font-size: 2.1rem;
+        text-align: center;
+        color: #FFF;
+    }
+    
+    #footer .__text {
+        border: 2px solid #43c1a8;
+        border-radius: 3px;
+        margin: 14px auto;
+        padding: 15px;
+    }
+    
+    .footer__main-links {
+        color: #fff;
+        text-decoration: none;
+        
+    }
+    /*change the font size from 2.5 to 2*/
+    p.col-MB-35,
+    .custom-btn.custom-btn--style-2 {
+        font-size: 2rem;
+    }
+    
+    
+    
+    .scroll-down {
+        position: absolute;
+        bottom: 281px;
+    }
+    /*new*/
+    #t{
+        bottom: 14px;
+    }
+    
+    #CTA__footer-students div#all {
+        padding: 20px;
+    }
+ 
+/*
+    p.col-MB-35 {
+        text-align: left;
+    }
+*/
+
+}
+
+
+@media only screen and (min-width: 560px) {
+    a.scroll-down {
+        bottom: 250px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    #focused__on-outcomes,
+    #guarantees__main{
+        text-align: left;
+    }
+    /*change the align from right to left*/
+    /*add padding-left*/
+    #challenge__yourself {
+        text-align: left;
+        padding-left: 25px;
+    }
+    .timeline--style-2 .__item {
+        width: 50%;
+    }
+    
+    .testimonial--slider .slick-dots {
+        top: 5%;
+        left: 20%;
+    }
+}
+
+@media only screen and (min-width:992px) {
+    /*change the background-image to the one jereme made */
+
+    .start-screen__content {
+        background-image: url('../img/cypheracademy/adobe-stock/2.jpg');
+    }
+    /*change the color from #333; to #ffff; */
+    h2.h1.__title,
+    p.header_p-textbox,
+    h4.CTA-hero-header {
+        color: #ffff;
+    }
+    
+    h4.CTA-hero-header {
+        font-weight: 800;
+    }
+    
+    a.scroll-down {
+        bottom: 100px;
+    }
+    
+    .top-bar--light.navigation__students-colorlinks a {
+        color: #fff;
+    }
+    
+    .top-bar--light.navigation__students-colorlinks.is-fixed.top-bar--dark.is-visible a {
+        color: #777;
+    }
+
+}
+
+@media only screen and (min-width: 1200px) {
+    .testimonial--slider .slick-dots {
+        left: 3%;
+    }
+    
+    h2.h1.__title,
+    p.header_p-textbox {
+        padding: 0 6rem;
+    }
+}

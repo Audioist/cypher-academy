@@ -1,0 +1,147 @@
+.D{
+position: absolute;
+left: 70%;
+height: 350px;
+ width: 400px; 
+ text-align: center; 
+ border-radius: 10px;
+}
+.inp{
+	 display: block;
+	  padding: 5px 12px;
+	   border-radius: 30px; 
+	   margin-bottom: 20px; 
+	   margin-left: 65px; 
+	   height: 48px;
+    box-shadow: none;
+    border: 1px solid #fff;
+    color: #333; 
+    border: 2px solid #33D7B6;
+    outline: none;
+}
+.hed {
+	font-family: Roboto;
+	text-align: center;
+	padding-top: 23px;
+	font-style: italic;
+	font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 21px;
+}
+.nom {
+	font-size: 30px;
+	text-align: center;
+}
+.bob{
+	color: red;
+}
+.blue{
+	color: blue;
+}
+.blue:hover{
+	color: white;
+
+}
+.bob:hover{
+	color: white;
+}
+/*ar*/
+
+
+.scroll-down {
+  opacity: 1;
+  -webkit-transition: all .5s ease-in 3s;
+  transition: all .5s ease-in 3s;
+}
+
+.scroll-down {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  margin-left: -16px;
+  display: block;
+  width: 32px;
+  height: 32px;
+  border: 2px solid #FFF;
+  background-size: 14px auto;
+  border-radius: 50%;
+  z-index: 2;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+  -webkit-transition: all .2s ease-in;
+  transition: all .2s ease-in;
+  transform: scale(1)
+}
+
+.scroll-down:before {
+    position: absolute;
+    top: calc(50% - 8px);
+    left: calc(50% - 6px);
+    transform: rotate(-45deg);
+    display: block;
+    width: 12px;
+    height: 12px;
+    content: "";
+    border: 2px solid white;
+    border-width: 0px 0 2px 2px;
+}
+
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+#all{
+/*
+	margin-top: 50px;
+	height: 300px;
+*/
+	background-color: #d9f7f1;
+}
+.tope{
+	padding-top: 20px;
+}
+.apply{
+	height: 100px;
+}
+/*no need*/
+/*#read{
+	padding-top: 20px;
+}*/
+
+/*
+#tes{
+	max-height: 450px;
+}
+*/
+.colo{
+	background-color: #d9f7f1;
+}
+
+.cl{
+	
+	color: #33d7b6;
+    font-size: 3rem;
+    margin-right: 7px;
+}
+/*/*margin left 6% for header right side */
+/*.become-a-developer{
+  margin-left: 6%;
+}*/
+*/
