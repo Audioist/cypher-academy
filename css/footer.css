@@ -25,3 +25,6 @@
 @media only screen and (min-width: 375px) {
 .line-up div { margin: 5px 0px 5px 0px; }
 }
+.row i {
+  margin: 0px 0px 0px 35px;
+}
